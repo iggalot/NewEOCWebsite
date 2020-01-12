@@ -1,0 +1,97 @@
+/*~~~~ HTML ELEMENTS ~~~~*/
+/*EOC Color scheme notes:
+Gold Color: #f5cc18
+Purple Color: #4f2892;
+Purple Hover: #473e7e;
+Gold Hover: #dba959;
+*/
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  color:#4f2892; /*purple*/
+  background-color: #f5cc18; /*gold color*/
+  /*overflow: auto;*/ /*un comment to enable scroll bars instread of displaying dropdowns */
+}
+
+/* Navigation links */
+.navbar a {
+  padding: 5px;
+  text-decoration: none;
+  width: 20%; /* Five equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  /*text-align: center;*/ /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar-categories li a:hover {
+  background-color: #dba959; /* pale gold hover */
+  color: #473e7e; /* lighter purple hover */
+  width: 100%;
+}
+
+.navbar-categories a {
+  color:#4f2892; /*purple*/
+  padding: 15px;
+}
+
+.navbar-brand {
+	color:#4f2892; /*purple*/
+	font-size:1.2em;
+	font-weight:600;
+	font-family:'Droid Serif', 'Georgia', 'Palotine Linotype', serif;
+}
+
+nav.navbar {
+	background-color: #f5cc18; /*gold*/
+}
+
+.navbar-toggle {
+	background-color: #f5cc18; 
+	border: 1px solid #4f2892; 
+	border-radius: 4px;
+}
+
+ul.dropdown-menu {
+	width: auto;
+	right: auto; /* right: auto left: auto needed to align the menu under its dropdown menu heading; */
+	left: auto;
+	background-color: #f5cc18; /*gold*/
+}
+
+ul.dropdown-menu li a {
+	display:block;
+	width: 100%;
+}
+
+ul.dropdown-menu:hover li a:hover {
+	overflow:hidden;
+	width: 100%;
+  	background-color: #dba959; /* pale gold hover */
+  	color: #473e7e; /* lighter purple hover */
+}
+
+
+
+/* carousel fullscreen */
+
+/*.carousel-fullscreen .carousel-inner .item {
+    height: 100vh; 
+    min-height: 600px; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}*/
+
+/* carousel fullscreen - vertically centered caption*/
+
+/*.carousel-fullscreen .carousel-caption {
+    top: 50%;  
+    bottom: auto;
+    -webkit-transform: translate(0, -50%); 
+    -ms-transform: translate(0, -50%); 
+    transform: translate(0, -50%);
+}*/
+
+
+
+

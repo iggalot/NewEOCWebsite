@@ -1,0 +1,941 @@
+/* Evansville Obedience Club Styles 
+   copyright Crown Rock Design
+   Steve Stout
+   August 23, 2016 
+   Updated January 24, 2019
+*/
+
+/*~~~~ HTML ELEMENTS ~~~~*/
+@media only screen and (max-width:380px) {
+		body{ font-size:10px;
+	}
+}
+
+body {
+	margin:0;
+	font-family: "Droid	Sans", sans-serif;
+	color:#111;
+	font-size: 1.6rem;
+	line-height: 1.454;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "Droid Serif", 'Georgia', serif;
+	text-align: center;
+} 
+a:link {
+	cursor: pointer;
+}
+/*-----  NAVBAR >>> LINE 222 
+		ALL PAGES >>> LINE 289 
+		HOME PAGE >>> LINE 357
+
+/*----- ELEMENT STYLES -----*/
+/*~~~~~  DISPLAY  ~~~~~*/
+.inlin {
+	display: inline;
+}
+.bloc {
+	display: block;
+}
+.lt-float {
+	float: left;
+}
+.flt-rt {
+	float:right;
+}
+.flt-lt {
+	float:left;
+}
+/*~~~~ FONT WEIGHT ~~~~*/
+.bold {
+	font-weight: 700;
+}
+/*~~~~ FONT SIZING ~~~~*/
+.small {
+	font-size:.875rem;
+}
+.fs-10 {
+	font-size: 1rem;
+}
+.fs-12 {
+	font-size: 1.2rem;
+}
+.fs-14 {
+	font-size: 1.4rem;
+}
+.fs-16 {
+	font-size: 1.6rem;
+}
+.fs-18 {
+	font-size: 1.8rem;
+}
+.fs-20 {
+	font-size: 2rem;
+}
+.fs-22 {
+	font-size: 2.2rem;
+}
+.fs-24 {
+	font-size: 2.4rem;
+}
+.fs-26 {
+	font-size: 2.6rem;
+}
+.fs-28 {
+	font-size: 2.8rem;
+}
+.fs-30 {
+	font-size: 3rem;
+}
+/*~~~~~  TEXT SHADOW  ~~~~*
+.text-shadow1 {
+	text-shadow: 0 0 2px #fff;
+}
+/*~~~~~  TEXT ALIGN ~~~~~*/
+.text-justify {
+	text-align: justify;
+}
+.text-center {
+	text-align: center;
+}
+
+/*~~~~ Font Decoration ~~~~*/
+.all-caps {
+	text-transform:uppercase;
+}
+.und-line {
+	text-decoration: underline;
+}
+.left-indent {
+	text-indent: 2rem;
+}
+.italic {
+	font-style: italic;
+}
+/*~~~~ FONT COLOR ~~~~*/
+.red {
+	color:#b40000;	
+}
+.purpl {
+	color:#4f2892;
+}
+.white {
+	color:#fff;
+}
+/*~~~~ Background Colors ~~~~*/
+.purple-bkg {
+	background-color: #4f2892;
+}
+/*~~~~ Width ~~~~*/
+.wid-30 {
+	width:30%;
+}
+.wid-70 {
+	width: 70%;
+	margin:auto;
+}
+.wid-90 {
+	width:90%;
+}
+.half {
+	width:50%;	
+}
+.fill-hor-text {
+    letter-spacing: 5em;
+}
+/*~~~~ Height ~~~~*/
+.top-pad-quartem {
+	padding-top: .25em;
+}
+.top-pad-1m {
+	padding: 1em 0 0;
+}
+.top-pad-1-halfm {
+	padding: 1.5em 0 0 0;
+}
+.top-pad-2m {
+	padding: 2em 0 0 0;
+}
+.top-mar-1-twom {
+	margin-top: 1.2em;
+}
+.top-mar-2m {
+	margin-top: 2em;
+}
+.top-mar-none {
+	margin-top: 0;
+}
+.btm-mar-1m {
+	margin-bottom: 1em;
+}
+.btm-mar-2m {
+	margin-bottom: 2em;
+}
+/*~~~~~  PADDING  ~~~~~*/
+.padding-2rm {
+	padding: 2rem;
+}
+.padding-3rm {
+	padding: 3rem;
+}
+.rt-pic-pad {
+    padding: 0 2em 2em 0;
+}
+.lf-pic-pad {
+	padding: 0 0 2em 2em;
+}
+.pic-pad-rt-bt {
+	padding: 0 2rem 2rem 0;
+}
+.bot-pad-3qrtrrm {
+	padding-bottom: .75rem;
+}
+.bot-pad-1rm {
+	padding-bottom: 1rem;
+}
+.bot-pad-1qrtrrm {
+	padding-bottom: 1.25rem;
+}
+.bot-pad-1m {
+    padding-bottom: 1em;
+}
+.bot-pad-2m {
+    padding-bottom: 2em;
+}
+.bot-pad-3m {
+    padding-bottom: 3em;
+}
+.pad-rt-2m {
+	padding-right: 2em;
+}
+.pad-lt-2m {
+	padding-left: 2em;
+}
+.pad-lt-20rm {
+	padding-left: 20rem;
+}
+.pad-hor-3m {
+	padding-right: 3em;
+	padding-left: 3em;
+}
+.pad-hor-6m {
+    padding-left:6em;
+    padding-right: 6em;
+}
+/*~~~-~~~ PAGE ELEMENTS ~~~-~~~*/
+/*.phone {
+	float:left;
+	color:#eee;
+	height:50px;
+	font-size:16px; 
+	line-height:20px;
+	padding:17px 0 0 15%;
+}
+.phone a {
+	color:#8088ff;
+}
+
+/*~~~~~ NAVBAR ~~~~~*/
+.navbar {
+	background-color:#f5cc18;
+	color:#4f2892;
+	position: fixed;
+	vertical-align: center;
+	line-height: 2.0em;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 3px 2px #4f2892;
+	font-size: 1.2em;
+}
+
+.navbar .nav .navbar-nav> li > a {
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+
+/*.navbar a:hover {
+	background: #f9e693;
+	color:	 #f2f2f2;
+	
+}*/
+
+.navbar-default .navbar-brand {
+	color:#4f2892;
+	font-size:2.0em;
+	font-weight:700;
+	font-family:'Droid Serif', 'Georgia', 'Palotine Linotype', serif;
+	text-shadow:0 0 10px #eee;
+}
+
+.navbar-default .navbar-nav > .active  {
+	background-color:#f00;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color:#4f2892;
+	background-color:#f9e693;
+}
+
+/* Social media navbar icons */
+.navbar-socialmedia img{
+	line-height: 2.0em;
+	height: 30px;
+	vertical-align: center;
+}
+
+/* Override BS dropdown defaults */
+.dropdown:hover .dropdown-menu {
+	display: block;
+	background-color: #f5cc18;
+	font-size: 16px;
+}
+
+/* Main page body */
+.main {
+	padding: 16px;
+	margin-top: 50px;
+}
+
+
+
+/*
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color:#4f2892;
+	background-color:#f9e693;
+}
+.navbar-default .navbar-nav>li>a {
+		
+}
+
+.navbar-default .navbar-nav > .active  {
+	font-weight:700;
+	background-color:#f00;
+}
+
+*/
+
+/*  All Navbar Links  */
+/*.navbar-default .navbar-nav>li>a
+.navbar-default .social-media {
+  float: right;
+  padding: 0 15px;
+}
+.navbar-default .social-media i {
+  font-size: 22px;
+}*/
+
+
+
+
+
+
+/*.social {
+	float:right;
+	height:50px;
+	padding:15px 0 0 20px;
+}*/
+/*.fb-icon {
+	padding-top:4px;	
+}*/
+
+
+/*~~~~~  Page Top Nav Btm Margin  ~~~~~*/
+.btm-top-nav-margin {
+	background-image: url("images/TopNavBtmMargin.png");
+	background-repeat: repeat-x;
+	background-position:top;
+	min-height: 20px;
+	margin: 0 auto;
+}
+.btm-top-btm-nav-margin {
+	background-image: url("images/TopNavBtmBtmMargin.png");
+	background-repeat: repeat-x;
+	background-position:top;
+	min-height: 20px;
+	margin: 0 auto;
+}
+.min-ht-20 {
+	min-height: 20px;
+}
+/*----- ALL Pages -----*/
+.home-logo {
+	display: block;
+	margin:1.5em auto;
+}
+.page-banner {
+	color:#4f2892;
+	text-shadow:0 1px 2px #999;
+}
+.minitron {
+	display: block;
+	font-size: 1.6rem;
+	margin:2rem auto;
+	padding: 4rem;
+	max-width: 90%;
+	border-radius:15px;	
+	border:#ffce03 4px solid;
+	background-color:#f5ecd4;
+	box-shadow:inset 0 0 6px #333;
+	overflow: auto;
+}
+.minitron h2 {
+	font-size: 2.4em;
+}
+.minitron h3 {
+	font-size: 1.8em;
+}
+.minitron p {
+	margin-top:1em;
+	font-size:1em;
+	text-align:center;
+}
+.tron-yellow {
+	display: block;
+	font-size: 1.6rem;
+	margin:2rem auto;
+	padding: 2rem 2.5rem;
+	max-width: 100%;
+	border-radius:9px;	
+	border:#ffce03 4px solid;
+	background-color:#f5ecd4;
+	box-shadow:inset 0 0 6px #333;
+}
+.tron-red {
+	display: block;
+	font-size: 1.6rem;
+	color:#c82D30;
+	margin:2rem auto;
+	padding: 2rem 2.5rem;
+	max-width: 100%;
+	border-radius:9px;	
+	border:#ffce03 4px solid;
+	background-color:#f5ecd4;
+	box-shadow:inset 0 0 6px #333;
+}
+/*~~~~~ Tron Class BORDERS ~~~~~*/
+.tron {
+	font-size: 1.6rem;
+	padding: 4rem;	
+	border-top:#ffce03 6px solid;
+	border-bottom:#ffce03 6px solid;
+	margin-top: 1.2rem;
+	margin-bottom: 1.6rem;
+}
+.page-pad {
+	min-width: 3rem;
+}
+.footer {
+	color:#4f2892;
+	background-color:#bbcfeb;
+	font-size: 1.3rem;
+	padding: 2em 2em 0 2em;
+	margin:2rem 0 0 0;
+	clear: both;
+	border:none;
+	box-shadow: none;
+}
+/* Footer - copyright */
+#copyright p {
+	text-align: center;
+	font-size:1.2rem;
+}
+.bottom {
+	clear: both;
+    min-height: 40px;
+	width:100%;
+	margin-top:0;
+    background-image:url(images/eocbottomgradient.png);
+    background-repeat: repeat-x;
+}
+/*----- HOME page -----*/
+.trial-text {
+	max-width: 75%;
+	text-align: center;
+	padding:0;
+	font-size:2rem; 
+	color:#b40000; 
+	text-shadow:0 1px 1px #933;	
+}
+
+.trial-text-sidebar {
+	max-width: 85%;
+	text-align: center;
+	padding:0;
+	font-size:2rem; 
+	color:#eeeeee; 
+}
+
+.trial-btn {
+	display: block;
+	margin: 5px auto;
+	border: 2px solid #4f2892;
+	border-radius: 20px;
+	background: linear-gradient(#ffce03, #FFF0B2);
+	color: #4F2892;
+	font-size: 1.05em;
+}
+.left-sidebarlinks {
+	line-height: 1.6em;
+	display: block;
+}
+
+/* Controls the size of the sidebar and the carousel div */
+#eoc-slides {
+	height: 30em;
+/*	max-height: 30.0em;*/
+	/*min-height:68rem;	*/
+}
+
+/* Format for individual carousel images.  Height should match eoc-slides */
+.carousel-inner > .item > img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+	border-radius: 0.5em;
+
+	max-height: 100%;
+	max-width: 100%;
+
+	height: 30em;
+
+}
+.event h3{
+	font-size: 2.2rem;
+}
+.home-content-yel {
+	box-sizing: border-box;
+	margin: 1.0rem auto;
+	background-color: #F9E693;
+	border-radius: 20px;
+	padding: 2em 3em;
+	list-style-image: url(images/PawPrintSmall.png);
+}
+.home-content-blu {
+	box-sizing: border-box;
+	margin: 1.0rem auto;
+	background-color:#d7d1ff;
+	border-radius: 20px;
+	padding: 2em 3em;
+}
+.learn {
+	border-top: 3px solid #4f2892;
+	border-bottom: 3px solid #4f2892;
+	background-color: #f9e693;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/*~~~~ ABOUT US ~~~~*/
+.about-box {
+	font-size:1.6rem;
+	border: 1px solid #4f2894;
+	background-color: #f5ecd4;
+	padding: 2rem;
+	border-radius: 15px;
+	margin: 1.8rem 0;
+	text-align: justify;
+	box-shadow: 0 0 3px 0 #4f2894;
+}
+.dues {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+/* ------ CLASSES PAGE ----- */
+.class-header {
+	border-radius:15px;	
+	border:#ffce03 4px solid;
+	background-color:#f5ecd4;
+	box-shadow:inset 0 0 6px #333;
+}
+.header {
+	border-radius:15px;	
+	border:#ffce03 4px solid;
+	background-color:#f5ecd4;
+	box-shadow:inset 0 0 6px #333;
+}
+.box {
+	background-color:#F9E693;
+	border-radius:9px; 
+	margin: 12px 0;
+	padding: 10px 12px; 
+	width:150px; 
+	line-height:1.425em; 
+}
+.jump-schedule {
+    font-family:"Droid Serif", 'Georgia', serif;
+	text-align:center;
+    font-size: 1.8em;
+    background-color:#f5ecd4;
+	box-shadow: 0 2px 2px 1px #aaa;
+    color: #4f2894;
+    border-radius: 15px;
+    padding: 1.2em 0;
+    margin: 1.2em auto;
+}
+.package { 
+	padding:2em 3em;
+	text-align: center; 
+	border:#ffce03 4px solid;
+	border-radius:9px;	
+	background-color:#f5eab8;
+	box-shadow:inset 0 0 6px #333;
+	line-height: 2em;
+}
+.well {
+	border: 2px solid #111;
+	border-radius: 9px;
+	background-color: #efefef;
+}
+.sessionbox{
+	color:#009; 
+	background-color:#f5eab8; 
+	border-radius:9px; 
+	margin: 5px auto; 
+	padding: 20px 30px; 
+	line-height:1.45em;
+}
+.rescue {
+	margin:3rem 0 0 0;
+}
+.class-price {
+	background-color: #f5eab8;
+}
+.pricing {
+	box-sizing: border-box;
+	width:100%;
+	background-color: #ffe;
+	color:#121212;
+	padding: 20px;
+	border:1px solid #222; 
+	border-radius: 9px;
+	border-collapse: separate;
+	margin-bottom: 1rem;
+}
+.pricing table, tr {
+	border-collapse: separate;
+	border-bottom: 1px solid #121212;
+	padding: .5em 0;
+}
+.pricing table, th {
+	border-collapse: separate;
+	border-bottom: 2px solid #121212;
+	padding: .5em 0 0 0;
+}
+.pricing table, td {
+	border-collapse: separate;
+	border-bottom: 2px solid #121212;
+	padding: .5em 0;
+}
+.regclose {
+    text-align: center;
+    color: #B22222;
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: 0.03em 0.03em 1px #330000;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin: 50px 0;
+}
+.session-header {
+	margin: 0 auto 1rem;
+	font-weight: 700;
+}
+/*~~~~ ELI PANELS ~~~~*/
+.eli {
+	float:none;
+	margin: 0;
+}
+.eli label {
+	margin-bottom: 0;
+}
+.eli h3 {
+	margin:0 auto;
+	padding-bottom: .6rem;
+}
+/*~~~~ CLOSE ELI SECTION ~~~~*/
+.scheduleboxblu {
+	background-color:#d7d1ff;	
+ 	border-radius:9px; 
+	line-height:1.5em;
+	margin: 3.8rem auto 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+	width:38rem;
+	padding: 3rem 2rem;
+}
+.scheduleboxblu p {
+	margin:1em auto;
+	text-align:center;	
+	width:28rem;
+	font-size:2rem;
+}
+.dark-red-shadow {
+	color:darkred; 
+	text-shadow:0 1px 1px rgba(100, 30, 30, .5);
+}
+.sched-head {
+	background-color:#f5eab8;
+	line-height:1.5em;
+	margin:10px 0;
+	padding: 1em;
+	border-radius:9px;
+	border: 1px solid #4f2892;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+	color:#4f2892;
+	font-size: 2rem;
+}
+.outline {
+	border:1px solid #4f2892;
+	border-radius: 4px;
+}
+.class-info {
+	box-sizing: border-box;
+	padding:1.5em;
+	margin:1em auto; 
+	font-size: 1.6rem;
+	line-height: 1.3em;
+	border-radius: 9px;
+	background-color: #F8F1D0;
+}
+.class-name {
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 1.45em;
+}
+.time-day {
+	font-size: 1.8rem;
+	line-height: 1.43em;
+}
+.instructor {
+	font-size:1.5rem;
+	line-height: 1.43em;
+}
+.description {
+	font-size: 1.6rem;
+	line-height: 1.4235em;
+}
+.schedule {
+	border: 2px solid #4f2892;
+	line-height:1.4em;
+}
+.b-border {
+	border-bottom: #4f2892 solid 1px;
+}
+.cgc{
+	background-color:#d7d1ff;	
+ 	border-radius:9px; 
+	padding: 5px 20px;
+	line-height:1.4em;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left; 
+	clear:right;
+	width:958px;
+	margin:5px 0 0 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+}
+.cgc p{
+	color:#044; 
+	padding: 5px 20px;
+}
+/*~~~~~  CLOSE CLASSES  ~~~~~*/
+
+/*~~~~~  INSTRUCTORS  ~~~~~*/
+.box-yel {
+	background-color:#f5eab8;	
+ 	border-radius:9px; 
+	padding: 2.5rem 3rem;
+	font-size: 1.6rem;
+	line-height:1.5em;
+	text-align:left;
+	margin:1rem 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+}
+
+.box-red {
+	background-color:#f1c6e7;	
+ 	border-radius:9px; 
+	padding: 2.5rem 3rem;
+	font-size: 1.6rem;
+	line-height:1.5em;
+	text-align:left;
+	margin:1rem 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+}
+
+.box-grn {
+	background-color:#b1e8ed;
+ 	border-radius:9px; 
+	padding: 2.5rem 3rem;
+	font-size: 1.6rem;
+	line-height:1.5em;
+	text-align:left;
+	margin:1rem 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+}
+
+.box-blu {
+	background-color:#d7d1ff;	
+ 	border-radius:9px; 
+	padding: 2.5rem 3rem;
+	font-size: 1.6rem;
+	line-height:1.5em;
+	text-align:left;
+	margin:1rem 0;
+	box-shadow:1px 1px 5px 3px rgba(51,51,51,.3);
+}
+/*~~~~~ CONTACT Us ~~~~~*/
+.contact {
+	width:70%;
+    margin: 1rem auto 1.5rem auto;
+}
+.contact p {
+	width:50%;
+	line-height: 1.5em;
+	font-size: 1.6rem;
+	
+}
+.officers {
+	display: block;
+	margin: auto;
+}
+.officers > p {
+	display: block;
+	margin: 0 auto;
+}
+.officers > p > a:link {
+	margin-bottom: 1.5rem;
+}
+/*~~~~~  MEMBERS ~~~~~*/
+.member {
+	margin-bottom: 1em;
+}
+.member h2 {
+	margin-top: 0;
+}
+.member h4 {
+	margin-top: 1rem
+}
+.member p {
+	text-align: center;
+}
+.remember {
+	background-color:#f5eab8;
+	border: 3px solid #4f2892;
+	box-shadow: inset 1 1 #f5eab8;
+}
+.dog-bio {
+	text-align: left;
+}
+/*~~~~~  SEMINARS  ~~~~~*/
+.sponsor {
+	font-size: 1.6rem;
+	color: #4f2892;
+}
+/*COLORS*/
+.yel {
+	background-color:#f5eab8;
+	color: #f5eab8;
+}
+.yel-bkg {
+	background-color:#f5eab8;
+	color:#efefef;
+}
+.yel-lt {
+	background-color: #f9f2d2;
+}
+.blu {
+	background-color: #d7d1ff;
+	color: #d7d1ff;
+}
+.purple {color: #4f2892;
+}
+/*~~~~~  Trials  ~~~~~*/
+.trial {
+	padding: 30px;
+}
+.trial p {
+	padding-right: 3em;
+	padding-left: 3em;
+}
+.trial-sch {
+	margin: 1rem 0;
+}
+.trial-ht {
+	min-height: 4em;
+}
+.hilite{
+	box-shadow: inset 0 0 2px 2px #f3f2fc;
+}
+.farm-dog p {
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.farm-dog h3 {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+/*~~~~~  Other Clubs'  ~~~~~*/
+
+/*~~~~~  FAVORITES  ~~~~~*/
+.disclaimer {
+	font-size: 1.1rem;
+	line-height: 1.25em;
+}
+
+/*~~~~~  NEW MEMBER  ~~~~~*/
+.new-member {
+	font-size: 1.8rem;
+}
+/*~~~~~ AWARDS ~~~~~*/
+#gallery {
+	background-color: #f5eab8;
+	border: 7px solid #4f2894;
+	border-radius: 1em;
+}
+.awards-btn {
+	min-width:4em;
+	min-height:1.8em;
+	border-radius: 3rem;
+	background-color: goldenrod;
+	background-image: url(AwardGallery/images/BTN/awards-BtnBKG.svg);
+	background-size: contain;
+	border: 1px solid #633;	
+	box-shadow: 0 1px 13px 0 #611;
+} 
+/*~~~~~  MAINTENANCE PAGE ~~~~~*/
+.maintain-message {
+	font-size: 2rem;
+	color: #4f2892;
+	display: inline;
+}
+.maintain-message > h3 {
+	font-size: 3rem;
+	font-family: 'Droid Sans';
+	padding: 15rem 2.5rem 2rem;
+}
+.maintain-message > p {
+	padding: 1rem 2.5rem;
+}
+/*~~~~~ MEETINGS  ~~~~~*/
+.agenda {
+	font-size: 1.5em;
+}
+.eli ul li {
+	padding: 10px 0;
+}
+.eli ul li.p-large {
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.adjourn {
+	min-height: 400px;
+	background-image:url(images/AdjournementBKG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.adjourn img {
+	vertical-align: top;
+}
