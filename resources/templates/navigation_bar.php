@@ -8,7 +8,7 @@
 			<!-- Toggle Button [handles opening navbar components on mobile screens] -->
 			<button type="button" class="navbar-toggle navbar-toggle-right collapsed" data-toggle="collapse" data-target="#NavComponents"
 			aria-expanded="false">
-			<img src="/open-iconic/svg/justify-center.svg" width="12px" alt="icon chevron-bottom"></img>
+			<img src="/NewEOCWebsite/open-iconic/svg/justify-center.svg"  alt="icon chevron-bottom"></img>
 			</button>
 
 			<!-- Navbar Brand -->
