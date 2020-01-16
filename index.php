@@ -20,6 +20,13 @@
     );
      
     renderLayoutTemplatesWithContentFile("home.php", $variables);
-    renderLayoutTemplatesWithContentFile("carousel.php", $variables);
+
+    // Our carousel and images
+    require_once(TEMPLATES_PATH . "/carousel.php");
+
+
+    // // Add the standard footer
+    require_once(TEMPLATES_PATH . "/footer.php");
+    // renderLayoutTemplatesWithContentFile("footer.php", $variables);
  
 ?>

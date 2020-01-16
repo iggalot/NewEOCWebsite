@@ -45,11 +45,12 @@ nav.navbar {
 	background-color: #f5cc18; /*gold*/
 }
 
-.navbar-toggle {
+/*.navbar-toggler span img{
 	background-color: #f5cc18; 
 	border: 1px solid #4f2892; 
 	border-radius: 4px;
-}
+  right: auto;
+}*/
 
 ul.dropdown-menu {
 	width: auto;
@@ -69,7 +70,6 @@ ul.dropdown-menu:hover li a:hover {
   	background-color: #dba959; /* pale gold hover */
   	color: #473e7e; /* lighter purple hover */
 }
-
 
 
 /* carousel fullscreen */

@@ -81,13 +81,14 @@ defined("CAROUSEL_PATH")
 
 
 
-echo "LibraryPath: " . LIBRARY_PATH . "<br>";
-echo "TemplatesPath: ". TEMPLATES_PATH . "<br>";
-echo "ResourcesPath: " . RESOURCES_PATH . "<br>";
-echo "IndexPHPPath: " . INDEX_PATH . "<br>";
-echo "CSSPath: " . CSS_PATH . "<br>";
-echo "CarouselPath: " . CAROUSEL_PATH . "<br>";
+// echo "LibraryPath: " . LIBRARY_PATH . "<br>";
+// echo "TemplatesPath: ". TEMPLATES_PATH . "<br>";
+// echo "ResourcesPath: " . RESOURCES_PATH . "<br>";
+// echo "IndexPHPPath: " . INDEX_PATH . "<br>";
+// echo "CSSPath: " . CSS_PATH . "<br>";
+// echo "CarouselPath: " . CAROUSEL_PATH . "<br>";
 /*
+  
     Error reporting.
 */
 ini_set("error_reporting", "true");

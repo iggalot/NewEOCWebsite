@@ -1,6 +1,7 @@
 <div class="container">
-
+	<h5>Loaded in carousel.php</h5>
 <?php
+	echo "<h7>Load all images in a directory</h7><br>";
 	displayAllImagesInDirectory('./img/content/carousel/');
 ?>
 
@@ -21,6 +22,7 @@
 
 			<!-- Load our carousel images -->
 			<?php 
+				echo "<h7>Create a carousel of all images in a directory</h7><br>";
 				loadCarouselImagesFromDirectory('./img/content/carousel/');
 			?>
 		</div>

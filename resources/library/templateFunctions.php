@@ -39,7 +39,5 @@
      
         // close container div
         echo "</div>\n";
-     
-        require_once(TEMPLATES_PATH . "/footer.php");
     }
 ?>
